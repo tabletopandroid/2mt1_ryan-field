@@ -4,7 +4,7 @@
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<PublishingGroupTemporaryOutputDirectory>_PublishingGroupInt</PublishingGroupTemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\tabletopandroid-airport-2mt1-columbia-falls.xml</Package>
+		<Package>PackageDefinitions\tabletopandroid-airport-2mt1-ryan-field.xml</Package>
 	</Packages>
 	<PublishingGroups/>
 </Project>

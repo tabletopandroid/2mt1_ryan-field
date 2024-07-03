@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage ReleaseNotes="PackageDefinitions\tabletopandroid-airport-2mt1-ryan-field\ReleaseNotes.xml" Version="0.1.1">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>Ryan Field Airport</Title>
+		<Manufacturer/>
+		<Creator>Marc Ferguson</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\tabletopandroid-airport-2mt1-ryan-field\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\tabletopandroid-airport-2mt1-ryan-field\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="scenery">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-2mt1-ryan-field\scenery\</AssetDir>
+			<OutputDir>Scenery\airport-2mt1-ryan-field\scenery\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="tabletopandroid-modellib">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\tabletopandroid-modellib\</AssetDir>
+			<OutputDir>Scenery\tabletopandroid-modellib\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

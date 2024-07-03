@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="ServiceFile" version="1,0">
+    <Service.ParkingSpaceServices>
+        <ParkingSpace name="RAMP SMALL">
+            <IdleWorkers>
+                <Spot Frequency="1" SpawnDistanceParkingRadiusFactor="1.0" SpawnDistanceAdditionalOffset="2.0" SpawnAngleFromParking="-100" HeadingFromParkingHeading="90" >
+                   <IdleWorker Filename="Shared\Asobo_IdleWorkers\Large\V1" EntryWeight="1"/>
+                </Spot>
+                <Spot Frequency="1" SpawnDistanceParkingRadiusFactor="1.0" SpawnDistanceAdditionalOffset="12.0" SpawnAngleFromParking="110" HeadingFromParkingHeading="-80" >
+                    <IdleWorker Filename="Shared\Asobo_IdleWorkers\Large\V1" EntryWeight="1"/>
+                    <IdleWorker Filename="Shared\Asobo_IdleWorkers\Large\V2" EntryWeight="1"/>
+                </Spot>
+            </IdleWorkers>
+            <ParkingTypes>
+                <ParkingEntry ParkingType="RAMP_GA_SMALL" />
+            </ParkingTypes>
+            <Services>
+                <Service 
+                    name="GroundPowerUnit" 
+                    Filename="Shared\Asobo_GroundPowerUnit\GroundPowerUnit" 
+                    AIType="GroundPowerUnit" 
+                    Frequency="0.25" 
+                    SpawnDistanceParkingRadiusFactor="1.0" 
+                    SpawnDistanceAdditionalOffset="4.0" 
+                    SpawnAngleFromParking="20" 
+                    HeadingFromParkingHeading="50"
+                />
+                <Service 
+                    name="SmallPushBack" 
+                    Filename="Shared\Asobo_PushBack\SmallPushBack" 
+                    AIType="SmallPushback" 
+                    Frequency="1" 
+                    SpawnDistanceParkingRadiusFactor="1.0" 
+                    SpawnDistanceAdditionalOffset="2.0" 
+                    SpawnAngleFromParking="-10" 
+                    HeadingFromParkingHeading="150"
+                />
+            </Services>  
+            <SleepingActivities>
+                <SleepingAirlinerServices Probability="0.1" Timer="600"/>
+                <SleepingSmallPlaneRefueling Probability="0.1" Timer="600"/>
+            </SleepingActivities>
+        </ParkingSpace>
+    </Service.ParkingSpaceServices>
+    <Service.AirportServices>
+        <Services>
+            <Service name="Fuel" Filename="Shared\Asobo_Fuel\Fuel" ParkingType="VEHICLE" Frequency="1"/>
+        </Services>
+    </Service.AirportServices>
+</SimBase.Document>

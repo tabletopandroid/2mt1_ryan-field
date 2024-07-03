@@ -1,0 +1,28 @@
+<CommandsInputs>
+	<File Path="C:\Users\marc\Projects\flight-simulator\scenery\ryan-field\PackageSources\Scenery\airport-2mt1-ryan-field\scenery\2MT1.xml" Failure="0">
+		<Package Name="tabletopandroid-airport-2mt1-ryan-field" Failure="0">
+			<AssetGroup Name="scenery"/>
+		</Package>
+	</File>
+	<File Path="C:\Users\marc\Projects\flight-simulator\scenery\ryan-field\PackageSources\Scenery\tabletopandroid-modellib\cone-white\cone-white.gltf" Failure="0">
+		<Package Name="tabletopandroid-airport-2mt1-ryan-field" Failure="0">
+			<AssetGroup Name="tabletopandroid-modellib"/>
+		</Package>
+	</File>
+	<File Path="C:\Users\marc\Projects\flight-simulator\scenery\ryan-field\PackageDefinitions\tabletopandroid-airport-2mt1-ryan-field\ContentInfo\Thumbnail.jpg" Failure="0">
+		<Package Name="tabletopandroid-airport-2mt1-ryan-field" Failure="0">
+			<AssetGroup Name="ContentInfo"/>
+		</Package>
+	</File>
+	<File Path="C:\Users\marc\Projects\flight-simulator\scenery\ryan-field\PackageSources\Scenery\tabletopandroid-modellib\cone-white\cone-white.xml" Failure="0">
+		<Package Name="tabletopandroid-airport-2mt1-ryan-field" Failure="0">
+			<AssetGroup Name="tabletopandroid-modellib"/>
+		</Package>
+	</File>
+	<File Path="C:\Users\marc\Projects\flight-simulator\scenery\ryan-field\PackageSources\Scenery\tabletopandroid-modellib\cone-white\cone-white.bin" Failure="0">
+		<Package Name="tabletopandroid-airport-2mt1-ryan-field" Failure="0">
+			<AssetGroup Name="tabletopandroid-modellib"/>
+		</Package>
+	</File>
+</CommandsInputs>
+
